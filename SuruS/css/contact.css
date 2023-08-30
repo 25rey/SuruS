@@ -1,0 +1,44 @@
+.btn{
+  width: 250px; /* 横幅指定 */
+  background-color: #ffdaea; /* 背景色 */
+  color: rgb(207,65,138); /* 文字色 */
+  font-weight: bold; /* 文字の太さ */
+  display: block; /* インライン要素をブロック要素に変更 */
+  margin: 10px auto; /* 中央寄せ */
+  font-size: 16px; /* 文字の大きさ */
+  padding: 15px; /* 内側の余白 */
+  border-radius: 100vh; /* 角丸指定 */
+  border: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact_table{
+    color: rgb(207,65,138);
+    width: 960px;
+}
+
+.text{
+    text-align: center;
+    color: #ffdaea;
+    padding: 10px;
+}
+  
+.confirm_item, .confirm_body{
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #ffdaea;
+}
+  
+.confirm_item{
+    text-align: left;
+    width: 30%;
+}
+  
+.confirm_body{
+    width: 70%;
+    word-break: break-word;
+}

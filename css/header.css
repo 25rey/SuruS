@@ -213,7 +213,7 @@
 main {
     padding-top: 60px;
     background: linear-gradient(0deg, rgb(187,153,180), rgb(207,125,159) 33%, rgb(207,125,159) 66%,rgb(207,65,138));
-    min-height: 100vh;
+    min-height: calc(100vh - 50px);
 }
 
 #main_logo {
@@ -412,7 +412,6 @@ main {
 }
 
 .contact_table{
-  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -424,11 +423,11 @@ main {
 
 .contact_item{
   text-align: left;
-  width: 30%;
+  width: 288px;
 }
 
 .contact_body{
-  width: 70%;
+  width: 672px;
 }
 
 .form-text{
